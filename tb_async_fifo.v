@@ -1,4 +1,4 @@
- module tb_async_fifo;
+  module tb_async_fifo;
 
 reg wr_clk = 0;
 reg rd_clk = 0;
@@ -28,8 +28,7 @@ always #5 wr_clk = ~wr_clk;
 always #8 rd_clk = ~rd_clk;
 
 initial begin
-    $dumpfile("fifo.vcd");
-    $dumpvars(0, tb_async_fifo);
+    
 
     wr_en = 0;
     rd_en = 0;
