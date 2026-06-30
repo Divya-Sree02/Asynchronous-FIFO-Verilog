@@ -1,5 +1,5 @@
 # Asynchronous-FIFO-Verilog
-Asynchronous FIFO design in Verilog with Gray code pointers and clock-domain crossing synchronization, verified using Icarus Verilog and GTKWave.
+Asynchronous FIFO design in Verilog with Gray code pointers and clock-domain crossing synchronization, verified using Xilinx Vivado.
 ## Asynchronous FIFO — Theory & Working
 
 This project implements an **Asynchronous FIFO (First-In First-Out)** buffer in Verilog that allows safe data transfer between two different clock domains.
